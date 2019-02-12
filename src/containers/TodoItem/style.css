@@ -1,0 +1,27 @@
+.todo_item{
+    width: -webkit-fill-available;
+    padding: 5px;
+    margin: 5px;
+}
+.todo_status_checkbox{
+    width: auto;
+}
+
+.todo_status_checkbox > input{
+    width: 30px;
+    height: 30px;
+}
+
+.todo_status_checkbox, .todo_content, .todo_edit_button{
+    width: auto;
+}
+
+.todo_content{
+    width: 65%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

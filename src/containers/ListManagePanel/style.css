@@ -1,0 +1,20 @@
+#list_manage_panel{
+    background: dodgerblue;
+}
+
+
+.manage{
+    height: 40px
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+}
+#filterName{
+    display: flex;
+    align-items: center;
+}
+
+#filter, #filterName, .add_todo_button, .empty_list_manage_panel_block{
+    width: auto;
+}
+
+

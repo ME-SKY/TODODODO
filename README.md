@@ -3,7 +3,9 @@ The project uses webpack for building and webpack-dev-server for development.
 
 ## Available Scripts
 
-In the project directory, you can run:
+Notice, you need to run `npm i` to install all the dependencies.
+
+in the project directory, you can run:
 
 ### `npm start`
 
@@ -17,11 +19,6 @@ If you want to show this app through the services like ngrok/serveo/pagekite etc
 you need to change configuration in `webpack.config.js` file, <br>
 and if you want to know more about configuration and development options, visit <br>
 [webpack documentation](https://webpack.js.org/concepts) 
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
