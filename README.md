@@ -5,7 +5,7 @@ The project uses webpack for building and webpack-dev-server for development.
 
 Notice, you need to run `npm i` to install all the dependencies.
 
-in the project directory, you can run:
+In the project directory, you can run:
 
 ### `npm start`
 
