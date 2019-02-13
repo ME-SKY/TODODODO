@@ -12,7 +12,6 @@ function TodoItem({todoItem, toggleTodoStatus, showModal}){
     }
 
     const toggleStatus = id => {
-        console.log('toggleStatus in Todo container')
         toggleTodoStatus(id)
     }
     return (

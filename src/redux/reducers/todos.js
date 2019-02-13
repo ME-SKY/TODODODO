@@ -1,6 +1,5 @@
 import {ADD_TODO, FILTER_THE_LIST, TOGGLE_TODO_STATUS, ADD_TODOS, EDIT_TODO} from "../actionTypes";
 
-let todoId = 4;
 const initialState = {
     activeFilter: "all",
     filteredTodos: [],
@@ -15,7 +14,7 @@ export default function(state = initialState, action) {
     switch (action.type) {
         case ADD_TODO: {
             let todo = {
-                id: todoId++,
+                id: Math.max.apply(Math, state.todos.map(el => el.id)) + 1,
                 content: action.payload.content,
                 priority: action.payload.priority,
                 completed: false

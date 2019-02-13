@@ -1,6 +1,5 @@
 import { connect } from 'react-redux'
 import TodoList from  "../components/TodoList/"
-import {increaseInteger} from "../redux/actions";
 import {addTodos} from "../redux/actions"
 
 const mapStateToProps = (state, ownProps) => {

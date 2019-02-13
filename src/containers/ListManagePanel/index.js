@@ -46,7 +46,6 @@ class ListManagePanel extends React.Component {
                     <div id="filterName" className="col-sm-1">
                         {translatedFilterNames[this.props.activeFilter]}
                     </div>
-                    {/*<div className="empty_list_manage_panel_block col-sm-6">eeeeeeeeeeeeee</div>*/}
                     <div className="add_todo_button col-sm-1 ml-auto d-flex justify-content-center align-items-center" onClick={() =>this.props.showModal('add')}>
                         <img src={plus} alt=""/>
                     </div>

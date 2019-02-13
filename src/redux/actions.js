@@ -1,16 +1,8 @@
-import {INCREASE_INTEGER_VALUE} from "./actionTypes";
 import {ADD_TODO} from "./actionTypes";
 import {ADD_TODOS} from "./actionTypes"
 import {FILTER_THE_LIST} from "./actionTypes";
 import {TOGGLE_TODO_STATUS} from "./actionTypes";
 import {EDIT_TODO} from "./actionTypes";
-
-export const increaseInteger = value => {
-    return {
-        type: INCREASE_INTEGER_VALUE,
-        payload: value
-    }
-}
 
 export const addTodo = value => {
     return {

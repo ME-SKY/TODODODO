@@ -9,9 +9,7 @@ function TodoList({todos, addTodos, showModal, allTodosLength}){
 
     const getMoreTodos = () => {
         let todosStartPoint = allTodosLength+ 10
-        todosApi.getTodos(todosStartPoint).then((data) => {
-            addTodos(data)
-        })
+        todosApi.getTodos(todosStartPoint).then((data) => addTodos(data))
     }
     return (
         <div id="todo_list" className="container">
